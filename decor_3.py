@@ -4,9 +4,8 @@ from decor_2 import logger
 
 @logger('decor_3.log')
 def flat_generator(list_of_lists):
-
-    for listes in list_of_lists:
-        for item in listes:
+    for lists in list_of_lists:
+        for item in lists:
             yield item
 
 
